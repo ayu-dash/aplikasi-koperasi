@@ -323,6 +323,7 @@ public class PinjamanView extends javax.swing.JInternalFrame {
                 if (success) {
                     JOptionPane.showMessageDialog(this, "Pengajuan berhasil!");
                     loadPinjaman();
+                    renderPanelAction();
                 } else {
                     JOptionPane.showMessageDialog(this, "Pengajuan gagal!");
                 }

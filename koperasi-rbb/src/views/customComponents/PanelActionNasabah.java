@@ -39,7 +39,7 @@ public class PanelActionNasabah extends javax.swing.JPanel {
     }
 
     public void setStatus(String status) {
-        if ("Ditolak".equalsIgnoreCase(status) || "Lunas".equalsIgnoreCase(status) || "Disetujui".equalsIgnoreCase(status)) {
+        if ("Ditolak".equalsIgnoreCase(status) || "Lunas".equalsIgnoreCase(status) || "Disetujui".equalsIgnoreCase(status) || "Dibatalkan".equalsIgnoreCase(status)) {
             refuseBtn.setVisible(false);
         } else {
             refuseBtn.setVisible(true);
